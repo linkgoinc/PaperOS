@@ -266,7 +266,7 @@ For these cases PaperOS can investigate ESP32-S3 ELF loading.
 Conceptual flow:
 
 ```text
-reader.paperapp
+reader.papp
        ↓
 reader.elf
        ↓
@@ -623,7 +623,7 @@ Target flow:
 ```text
 edit app
    ↓
-package .paperapp
+package .papp
    ↓
 upload to paperos.local
    ↓
@@ -669,7 +669,7 @@ The runtime concept is proven when a user can:
 ```text
 boot PaperOS
    ↓
-install Home Assistant.paperapp
+install Home Assistant.papp
    ↓
 launch it
    ↓
