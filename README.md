@@ -110,10 +110,12 @@ Applications consume stable system APIs rather than directly controlling board-s
 
 A PaperOS application should be installable independently from the OS.
 
+PaperOS application packages use the **`.papp`** extension (**PaperOS Application Package**).
+
 Example package:
 
 ```text
-home-assistant.paperapp
+home-assistant.papp
 ├── manifest.json
 ├── app/
 │   └── main.lua
