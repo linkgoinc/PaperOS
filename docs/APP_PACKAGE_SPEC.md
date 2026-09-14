@@ -10,16 +10,14 @@ A PaperOS app package should be self-contained, versioned, portable across suppo
 
 ## Package Extension
 
-Proposed extension:
+PaperOS application packages use the **`.papp`** extension.
 
-```text
-.paperapp
-```
+`.papp` stands for **PaperOS Application Package**.
 
 Example:
 
 ```text
-home-assistant.paperapp
+home-assistant.papp
 ```
 
 The package can initially use a ZIP-compatible container format.
@@ -29,7 +27,7 @@ The package can initially use a ZIP-compatible container format.
 A sandboxed application might look like:
 
 ```text
-home-assistant.paperapp
+home-assistant.papp
 ├── manifest.json
 ├── app/
 │   └── main.lua
@@ -40,7 +38,7 @@ home-assistant.paperapp
 A native application might look like:
 
 ```text
-reader.paperapp
+reader.papp
 ├── manifest.json
 ├── app/
 │   └── reader.elf
@@ -342,7 +340,7 @@ paperos.local
     ↓
 Developer
     ↓
-Upload .paperapp
+Upload .papp
 ```
 
 ## Runtime Notes
